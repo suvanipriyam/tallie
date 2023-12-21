@@ -22,7 +22,7 @@ export const Contact: FC = () => {
                       fill="red"
                     ></path>
                   </defs>
-                  <text font-size="10" fill="black">
+                  <text fontSize="10" fill="black">
                     <textPath href="#circle">
                       Tally Solutions - New Delhi - NCR - India{' '}
                     </textPath>

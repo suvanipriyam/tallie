@@ -1,4 +1,4 @@
-import Carousel from "react-bootstrap-carousel";
+import Carousel from "react-bootstrap/Carousel";
 import styles from './hero.module.css'
 import Link from 'next/link'
 function UncontrolledExample() {

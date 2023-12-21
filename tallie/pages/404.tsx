@@ -1,6 +1,6 @@
 import { NextPage } from "next";
-import { Layout } from "@components/Layout";
-import { Button } from "@components/Utils/Button";
+import { Layout } from "../components/Layout";
+import { Button } from "../components/Utils/Button";
 import { useRouter } from "next/router";
 
 const ErrorPage: NextPage = () => {
