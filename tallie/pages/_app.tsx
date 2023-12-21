@@ -1,22 +1,22 @@
-import { CONFIG } from "@libs/config";
-import { pageview } from "@libs/ga";
+import { CONFIG } from "../libs/config";
+import { pageview } from "../libs/ga";
 import { ToastContainer } from "react-toastify";
 import { useRouter } from "next/router";
 import { DefaultSeo } from "next-seo";
 import { useEffect } from "react";
-import Favicon from "@assets/icon.svg";
+import Favicon from "../assets/icon.svg";
 import Script from "next/script";
 import Head from "next/head";
 // custom style
-import "@styles/custom_style.css";
-import "@styles/grid.scss";
-import "@styles/utilities.scss";
-import '@styles/spacing.css';
-import '@styles/shortcodes.css';
+import "../styles/custom_style.css";
+import "../styles/grid.scss";
+import "../styles/utilities.scss";
+import '../styles/spacing.css';
+import '../styles/shortcodes.css';
 // main style
-import "@styles/base.css";
+import "../styles/base.css";
 // import "tippy.js/dist/tippy.css";
-import "@styles/style.css";
+import "../styles/style.css";
 
 const App = ({ Component, pageProps }) => {
   const router = useRouter();

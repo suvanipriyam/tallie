@@ -1,9 +1,8 @@
 import React, { FormEvent, useEffect, useState } from 'react'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../../FormComponent'
 import { ShoppingCart } from 'lucide-react'
 
 import Link from 'next/link'

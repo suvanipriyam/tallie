@@ -1,4 +1,4 @@
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../../FormComponent'
 import { FC } from 'react'
 
 export const Form: FC = () => {

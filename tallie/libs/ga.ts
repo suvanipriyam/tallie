@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { CONFIG } from "@libs/config";
+import { CONFIG } from "../libs/config";
 
 export interface IEvent {
   action: string;

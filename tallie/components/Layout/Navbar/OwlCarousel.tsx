@@ -1,5 +1,5 @@
 // import '@coreui/coreui/dist/css/coreui.min.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import { CCarousel, CCarouselItem, CImage } from '@coreui/react'
 
 const OwlCarousel = () => {

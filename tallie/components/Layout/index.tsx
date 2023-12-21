@@ -1,9 +1,9 @@
 import { type FC, type ReactNode } from 'react'
 import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/dist/client/router'
-import { CONFIG } from '@libs/config'
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
+import { CONFIG } from '../../libs/config'
+import { Navbar } from '../Layout/Navbar'
+import { Footer } from '../Layout/Footer'
 
 export interface ILayout {
   title: string

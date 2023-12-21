@@ -1,5 +1,5 @@
 import type { CSSProperties, FC, ReactNode } from "react";
-import { CONFIG } from "@libs/config";
+import { CONFIG } from "../../../libs/config";
 import classnames from "classnames";
 import NextLink from "next/link";
 

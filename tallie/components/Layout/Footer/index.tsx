@@ -1,16 +1,13 @@
 import { FC, FormEvent, useState } from 'react'
 
 import { FiHeart } from 'react-icons/fi'
-import { CustomImage } from '@components/Utils/CustomImage'
 
-import { CONFIG } from '@libs/config'
-import { PROJECTS } from '@libs/config/projects'
-import FooterForm from '@components/FooterForm'
+import FooterForm from '../../FooterForm'
 import { Facebook, Linkedin, Mail, Phone, Pin, Twitter } from 'lucide-react'
 import Link from 'next/link'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../../FormComponent'
 import ScrollFadeImage from './ScrollImage'
 import styles from './image.module.css'
 

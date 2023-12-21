@@ -1,10 +1,10 @@
 'use client'
 import { FC, FormEvent, useEffect, useState } from 'react'
-import { Link } from '@components/Utils/Link'
+import { Link } from '../../Utils/Link'
 import { IoIosArrowUp } from 'react-icons/io'
 import { useRouter } from 'next/router'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { CustomImage } from '@components/Utils/CustomImage'
+import { CustomImage } from '../../Utils/CustomImage'
 import classNames from 'classnames'
 import icon from '@assets/icon.svg'
 
@@ -12,7 +12,7 @@ import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 import Owl from './OwlCarousel'
 import OwlCarousel from './OwlCarousel'
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../../FormComponent'
 import styles from './navbar.module.css'
 import {
   Facebook,

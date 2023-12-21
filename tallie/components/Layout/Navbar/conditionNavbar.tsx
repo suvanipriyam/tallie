@@ -3,7 +3,7 @@ import NavComponent from './NavComponent'
 import { Pin, ShoppingCart, User } from 'lucide-react'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../../FormComponent'
 import Link from 'next/link'
 interface FormData {
   name: string
