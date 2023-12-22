@@ -1,8 +1,8 @@
 import React from 'react'
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
-import Accordian from '@components/Accordian'
-import FormComponent from '@components/FormComponent'
+import { Navbar } from '../../../components/Layout/Navbar'
+import { Footer } from '../../../components/Layout/Footer'
+import Accordian from '../../../components/Accordian'
+import FormComponent from '../../../components/FormComponent'
 import Link from 'next/link'
 
 const datamigration = () => {

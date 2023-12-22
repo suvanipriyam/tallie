@@ -1,11 +1,11 @@
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
-import Accordion from '@components/Accordian'
+import { Navbar } from '../../components/Layout/Navbar'
+import { Footer } from '../../components/Layout/Footer'
+import Accordion from '../../components/Accordian'
 
 import Marquee from 'react-fast-marquee'
 import React from 'react'
-import Accordian from '@components/Accordian'
-import FormComponent from '@components/FormComponent'
+import Accordian from '../../components/Accordian'
+import FormComponent from '../../components/FormComponent'
 import Link from 'next/link'
 
 const associates = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
+import { Navbar } from '../components/Layout/Navbar'
+import { Footer } from '../components/Layout/Footer'
 import Marquee from 'react-fast-marquee'
 import Link from 'next/link'
 const contact = () => {

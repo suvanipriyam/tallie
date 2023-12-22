@@ -26,7 +26,7 @@ import {
 } from 'lucide-react'
 import NavComponent from './NavComponent'
 import ConditionNavbar from './conditionNavbar'
-import Logo from 'public/logoss-removebg-preview.png'
+import Logo from '../../../public/logoss-removebg-preview.png'
 
 import Image from 'next/image'
 
@@ -99,7 +99,7 @@ export const Navbar: FC = () => {
                   // style={{ height: 216, width: 216 }}
                   width={216}
                   height={216}
-                  src="/logoss-removebg-preview.png"
+                 src={Logo}
                   className={styles['navbar-logo']}
                   alt="Navbar Logo"
                 />

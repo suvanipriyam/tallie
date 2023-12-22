@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Accordian from '../../Accordian'
-import FooterForm from '@components/FooterForm'
+import FooterForm from '../../FooterForm'
 import Link from 'next/link'
 
 export const Company: FC = () => {

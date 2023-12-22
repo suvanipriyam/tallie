@@ -1,10 +1,10 @@
 import React, { FormEvent, useState } from 'react'
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
-import Hero from '@components/Index/Hero'
+import { Navbar } from '../components/Layout/Navbar'
+import { Footer } from '../components/Layout/Footer'
+import Hero from '../components/Index/Hero'
 
 import Card from 'react-bootstrap/Card'
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../components/FormComponent'
 
 function ImageCard({ imageSrc, text }) {
   const [isHovered, setIsHovered] = useState(false)

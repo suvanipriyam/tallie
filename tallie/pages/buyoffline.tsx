@@ -1,6 +1,6 @@
 import React, { FormEvent, useState } from 'react'
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
+import { Navbar } from '../components/Layout/Navbar'
+import { Footer } from '../components/Layout/Footer'
 import Link from 'next/link'
 
 const buyoffline = () => {

@@ -1,6 +1,6 @@
-import { CustomImage } from '@components/Utils/CustomImage'
+import { CustomImage } from '../../Utils/CustomImage'
 
-import { PROJECTS } from '@libs/config/projects'
+import { PROJECTS } from '../../../libs/config/projects'
 import { FC } from 'react'
 
 export const Project: FC = () => {

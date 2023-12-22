@@ -1,9 +1,9 @@
-import { Navbar } from '@components/Layout/Navbar'
-import { Footer } from '@components/Layout/Footer'
-import Accordian from '@components/Accordian'
+import { Navbar } from '../../components/Layout/Navbar'
+import { Footer } from '../../components/Layout/Footer'
+import Accordian from '../../components/Accordian'
 import Marquee from 'react-fast-marquee'
 import React from 'react'
-import FormComponent from '@components/FormComponent'
+import FormComponent from '../../components/FormComponent'
 import Link from 'next/link'
 
 const about = () => {
